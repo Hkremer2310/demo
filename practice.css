@@ -1,0 +1,42 @@
+#header {
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  text-align: center;
+  height: 100px;
+  font-family: 'Clicker Script';font-size: 5em;
+  padding-top: 20px;
+}
+
+#col1 {
+  float: left;
+  width: 50%;
+  background-color: purple;
+  height: 500px;
+
+}
+
+#col2 {
+  float: right;
+  width: 50%;
+  background-color: aquamarine;
+  height: 500px;
+
+  }
+
+.photo1 {
+  border-radius: 50%;
+  align-items: center;
+}
+
+#footer {
+  background: linear-gradient(35deg, #FFCCCC, #CCFFFF);
+  clear: both;
+  height: 50px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
